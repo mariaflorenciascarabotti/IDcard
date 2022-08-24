@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-color: #929982;
+    background: linear-gradient(150deg, #d84e0e,  #b57ba6, #002500);
+    background-size: 400% 300%; 
+    animation: BgGradient 5s ease infinite;
+}
+@keyframes BgGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+.card{
+    border: none;
+}
+.img-fluid{
+    height: 100%;
+    object-fit: cover;
+}
+.card-body{
+    margin: 0 1rem;
+}
+.card-title{
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}
+.card-text{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5rem;
+}
+.card-text span{
+    font-weight: 600;
+}
+
+div .d-grid{
+    background-color: #D84E0E;
+    border-radius: 1rem;
+    box-shadow: 3px 6px 0px 1px rgba(216,78,14,0.77);
+    -webkit-box-shadow: 3px 6px 0px 1px rgba(216,78,14,0.77);
+    -moz-box-shadow: 3px 6px 0px 1px rgba(216,78,14,0.77);
+}
+div .d-grid:hover{
+    background-color: #002500;
+    color: #fff;     
+    translate: 3px 6px;
+    box-shadow: none;
+}
+.btn{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    width: 100%;
+    color: #fff;
+    border: none;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
